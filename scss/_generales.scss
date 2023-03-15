@@ -1,0 +1,9 @@
+.anclas {
+    color: $color_1;
+    size: 20px;
+    bleed: bold;
+
+    &:hover {
+        color: $color_3;
+    }
+}

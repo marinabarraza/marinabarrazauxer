@@ -1,0 +1,62 @@
+/* VARIABLES */
+.anclas {
+  color: blueviolet;
+  size: 20px;
+  bleed: bold;
+}
+.anclas:hover {
+  color: aqua;
+}
+
+/* HEADER */
+header {
+  background-color: white;
+  background-repeat: no-repeat;
+}
+header h1 {
+  color: blueviolet;
+}
+header h2 {
+  background-color: white;
+  font-size: x-large;
+}
+header h4 {
+  font-size: medium;
+}
+header p {
+  color: black;
+  font-size: medium;
+}
+header li {
+  list-style-type: none;
+  margin: 1rem;
+}
+header li a {
+  text-decoration: none;
+  color: black;
+  font-size: 3rem;
+  transition: all 0.3s ease;
+}
+header li a :hover {
+  color: aquamarine;
+}
+
+/* HERO*/
+.mt-n1 {
+  margin-top: 20px !important;
+}
+
+.Colorbg {
+  background-color: rgb(46, 45, 45);
+}
+
+.Presentation {
+  margin-top: 200px;
+  size: 18px;
+}
+
+.contacto .estiloh2 {
+  text-align-last: right;
+}
+
+/*# sourceMappingURL=estilo.css.map */

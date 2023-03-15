@@ -1,0 +1,40 @@
+/* HEADER */
+header {
+	background-color: $background-color_1;
+	background-repeat: no-repeat;
+
+
+	h1 {
+		color: $color_1;
+	}
+
+	h2 {
+		background-color: $background-color_1;
+		font-size: x-large;
+	}
+
+	h4 {
+		font-size: medium;
+	}
+
+	p {
+		color: $color_2;
+		font-size: medium;
+	}
+
+	li {
+		list-style-type: none;
+		margin: 1rem;
+
+		a {
+			text-decoration: none;
+			color: $color_2;
+			font-size: 3rem;
+			transition: all 0.3s ease;
+
+			:hover {
+				color: aquamarine;
+			}
+		}
+	}
+}
